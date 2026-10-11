@@ -1,0 +1,19 @@
+name: DiskPlayer
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  DiskPlayer:
+    type: application
+    platform: iOS
+    sources: [DiskPlayer]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.diskplayer
+        MARKETING_VERSION: 1.0
+        CURRENT_PROJECT_VERSION: 1
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: DiskPlayer
+        INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads: YES
